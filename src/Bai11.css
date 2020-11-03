@@ -1,0 +1,13 @@
+.ml-10 {
+    margin-right: 20px;
+}
+
+.squad {
+    width: 50px;
+    height: 50px;
+}
+
+
+.active {
+    border: 2px solid black;
+}

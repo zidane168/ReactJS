@@ -1,0 +1,6 @@
+Component in ReactJS
+- Mounting (constructor) -> render -> componentDidMount
+- Updating (new props) (setState) (forceUpdate)
+- UnMounting -> componentWillUnmount
+
+
