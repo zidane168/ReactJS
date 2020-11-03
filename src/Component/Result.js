@@ -10,6 +10,7 @@ class Result extends PureComponent {
         }
     }
 
+
     render() {
         return (
             
@@ -17,7 +18,7 @@ class Result extends PureComponent {
                 <div className="card-header">
                     Result: { this.props.fontSize }px, { this.props.color }
                 </div>
-                <div className="card-body justify-content-left" style={ this.setStyle() }  >
+                <div className="card-body justify-content-left" style={ this.setStyle() } >
                     Test with format
                 </div>
             </div>

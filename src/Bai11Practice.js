@@ -29,6 +29,18 @@ class Bai11Practice extends Component {
         console.log(s);
     }
 
+    onReset = (value) => {
+       if (value) {
+            this.setState({
+                color:  'red',
+                fontSize: 12,
+            });
+
+            console.log(this.state.color);
+       }
+      
+    }
+
     render() {
         return (
 
@@ -40,7 +52,7 @@ class Bai11Practice extends Component {
                         </div>
                         <div className="col"> 
                             <SizeSetting fontSize={ this.state.fontSize } onReceiverSize={ this.onSetSize }  />     
-                            <Reset />     
+                            <Reset onResetDefaultParent={ this.onReset } />     
                         </div>
                     </div>
 
