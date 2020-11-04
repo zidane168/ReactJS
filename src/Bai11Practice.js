@@ -3,6 +3,7 @@ import ColorPicker from './Component/ColorPicker';
 import SizeSetting from './Component/SizeSetting';
 import Reset from './Component/Reset';
 import Result from './Component/Result';
+import Header from './Component/Header';
 
 class Bai11Practice extends Component {
 
@@ -45,6 +46,7 @@ class Bai11Practice extends Component {
         return (
 
             <div>
+                <Header />
                 <div className="container">
                     <div className="row">
                         <div className="col">

@@ -8,6 +8,9 @@ class SizeSetting extends PureComponent {
 
     render() {
         return (
+
+          
+
             <div className="card mt-10">
                 <div className="card-header">
                     Size Setting: {this.props.fontSize}px
